@@ -13,7 +13,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Sending Feedback
 
-We are always open to [your feedback](mailto:grant@triumphdesigns.org?subject=[GitHub]%20Pure%20CRM%20Feedback.
+We are always open to [your feedback](mailto:grant@triumphdesigns.org?subject=[GitHub] Pure CRM Feedback)
 
 ## Folder Structure
 
