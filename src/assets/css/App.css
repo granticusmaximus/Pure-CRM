@@ -21,7 +21,8 @@ body {
 .sideBar {
   width: 30%;
   padding: 30px;
-  background-color: #263342;
+  background: -webkit-linear-gradient(top, rgba(240,240,240,1) 0%, rgba(176,176,176,1) 100%);
+  box-shadow: 0 1px 10px #b5b4b4;
   height: auto;
   border-radius: 5px;
   margin-left: -115px;
@@ -55,26 +56,26 @@ body {
 }
 
 .user {
-    display: inline-block;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-  }
-  
-  .one {
-    background-image: url('../images/profile-pic1.jpg');
-  }
-  
-  .two {
-    background-image: url('../images/profile-pic1.jpg');
-  }
-  
-  .three {
-    background-image: url('../images/profile-pic1.jpg');
-  }
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.one {
+  background-image: url("../images/profile-pic1.jpg");
+}
+
+.two {
+  background-image: url("../images/profile-pic1.jpg");
+}
+
+.three {
+  background-image: url("../images/profile-pic1.jpg");
+}
 
 .header {
   background-color: #2487de;
@@ -98,12 +99,7 @@ body {
   color: white;
   width: 300px;
   height: 50px;
-  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
-    0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-  -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
-    0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
-    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 10px #b5b4b4;
   margin: -65px 15px 0;
   border-radius: 3px;
   padding: 15px;
@@ -111,19 +107,15 @@ body {
 }
 
 .loginBox {
-  background-color: #3e798b;
+  background: -webkit-linear-gradient(top, rgba(240,240,240,1) 0%, rgba(176,176,176,1) 100%);
   color: black;
+  border: 1px solid #b5b4b4;
   width: 450px;
   height: auto;
   padding: 50px;
   margin: auto;
   border-radius: 3px;
-  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
-    0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-  -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
-    0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
-    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 10px #b5b4b4;
 }
 
 blockquote footer:before,
@@ -240,7 +232,7 @@ output {
 label {
   font-size: 14px;
   line-height: 1.42857;
-  color: #ffffff;
+  color: #153f6b;
   font-weight: 400;
 }
 
@@ -293,7 +285,6 @@ footer ul li a:hover {
 
 .App {
   text-align: center;
-  background-color: #76869b;
 }
 
 .App-logo {
