@@ -8,6 +8,7 @@ import {
   Input,
   Alert
 } from "reactstrap";
+import { Link, Route, Switch } from "react-router-dom";
 
 const EditProfile = () => (
   <div className="container">
@@ -50,8 +51,15 @@ const EditProfile = () => (
           placeholder="password placeholder"
         />
       </FormGroup>
-      <Button color="warning">Submit Update</Button>
     </Form>
+    <Button color="warning">
+        <Link to={"/user/profile"} className="nav-link">
+          Save Changes
+        </Link>
+    </Button>
+    <Switch>
+      <Route path="/user/profile" component={EditProfile} />
+    </Switch>
   </div>
 );
 

@@ -19,11 +19,6 @@ const SideBar = () => (
             </Link>
           </li>
           <li>
-            <Link to={"/user/edit"} className="nav-link">
-              Edit Profile
-            </Link>
-          </li>
-          <li>
             <Link to={"/user/messages"} className="nav-link">
               Messages
             </Link>
