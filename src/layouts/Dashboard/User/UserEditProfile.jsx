@@ -26,7 +26,7 @@ const EditProfile = () => (
           type="email"
           name="email"
           id="exampleEmail"
-          placeholder="with a placeholder"
+          placeholder="update email"
         />
       </FormGroup>
       <FormGroup>
@@ -35,7 +35,7 @@ const EditProfile = () => (
           type="password"
           name="password"
           id="examplePassword"
-          placeholder="password placeholder"
+          placeholder="update password"
         />
       </FormGroup>
       <FormGroup>
@@ -48,7 +48,7 @@ const EditProfile = () => (
           type="password"
           name="password"
           id="examplePassword"
-          placeholder="password placeholder"
+          placeholder="update your education"
         />
       </FormGroup>
     </Form>

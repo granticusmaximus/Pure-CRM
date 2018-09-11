@@ -27,11 +27,7 @@ const Messages = () => (
       </FormGroup>
       <FormGroup>
         <Label for="messageText">Enter your message</Label>
-        <Input
-          type="textarea"
-          name="text"
-          id="messageText"
-        />
+        <Input type="textarea" name="text" id="messageText" />
       </FormGroup>
     </Form>
     <Button>Send Message</Button>
