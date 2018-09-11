@@ -9,7 +9,6 @@ import {
   NavItem,
   NavLink,
   Card,
-  CardTitle,
   CardText,
   Row,
   Col
@@ -171,7 +170,7 @@ class Profile extends Component {
               </Col>
               <Col sm="12">
                 <Card body>
-                  <CardTitle>Special Title Treatment</CardTitle>
+                <div className="headerUser">Special Treatment</div>
                   <CardText>
                     With supporting text below as a natural lead-in to
                     additional content.
@@ -193,7 +192,7 @@ class Profile extends Component {
                 <p>CompTIA Security+</p>
               </Col>
               <Col sm="12">
-                <h5>Something Educational</h5>
+              <div className="headerUser">Something Educational</div>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Phasellus cursus vel libero non auctor. Suspendisse diam mi,
