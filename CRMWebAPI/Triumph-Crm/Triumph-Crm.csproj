@@ -7,6 +7,22 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="EntityFramework" Version="6.2.0" />
+    <PackageReference Include="MySql.Data" Version="8.0.12" />
+    <PackageReference Include="NUnit" Version="3.10.1" />
+    <PackageReference Include="NuGet.Core" Version="2.14.0" />
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.6" />
+    <PackageReference Include="Microsoft.AspNet.WebApi" Version="5.2.6" />
+    <PackageReference Include="RestSharp" Version="106.3.1" />
+    <PackageReference Include="ClosedXML" Version="0.93.1" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.6" />
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+    <PackageReference Include="Microsoft.Owin.Host.SystemWeb" Version="4.0.0" />
+    <PackageReference Include="Oracle.ManagedDataAccess" Version="18.3.0" />
+    <PackageReference Include="Microsoft.AspNet.WebPages" Version="3.2.6" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.6" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.WebHost" Version="5.2.6" />
+    <PackageReference Include="Microsoft.Owin" Version="4.0.0" />
   </ItemGroup>
 
   <ItemGroup>
