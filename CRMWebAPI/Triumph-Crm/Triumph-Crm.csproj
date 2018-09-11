@@ -31,5 +31,10 @@
     <Folder Include="Exceptions\" />
     <Folder Include="Helpers\" />
     <Folder Include="Services\" />
+    <Folder Include="Models\ViewModels\" />
+    <Folder Include="DataAccess\DTO\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Services\UserService.cs" />
   </ItemGroup>
 </Project>
