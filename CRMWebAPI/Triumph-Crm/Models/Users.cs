@@ -9,7 +9,7 @@ namespace TriumphCrm.Models
         internal readonly string username;
 
         [Key]
-        public int uid { get; set; }
+        public string UID { get; set; }
 
         [Required]
         [Display(Name = "Username:")]
