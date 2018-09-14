@@ -131,4 +131,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 This project is two fold. The first fold is to build an application for the 100 Days of Code challenge. And below the fold, I wanted to build an application that will be open source project that can be used for a social network application, or a mail server application, or a CRM Tool. I am utilizing all three into this application, and if you want to use all three, by all means use it!
 
-
