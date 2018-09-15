@@ -33,6 +33,7 @@
     "react-scripts": "1.1.5",
     "react-swipeable-views": "^0.12.17",
     "reactstrap": "^6.4.0",
+    "typescript": "^3.0.3",
     "whatwg-fetch": "^2.0.4"
   },
   "keywords": [],
